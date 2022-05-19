@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T05:49:42.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="z6_NA4ggZxbmtRQp44zt" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T06:15:52.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="_-ryaIuFvQYebxF91hhp" version="18.0.2" type="github">
   <diagram id="CFVVoWSrZk2KTcpsz0eJ" name="第 1 页">
     <mxGraphModel dx="4493" dy="1837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ClQNVbBQdnwnMK7u6O7Z-1" value="Go并发编程" style="swimlane;startSize=20;horizontal=1;containerType=tree;swimlaneLine=0;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-2622" y="-370" width="3035" height="984.5" as="geometry">
+          <mxGeometry x="-2730" y="-380" width="3035" height="984.5" as="geometry">
             <mxRectangle x="-500" y="60" width="100" height="20" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -258,6 +258,134 @@
         </mxCell>
         <mxCell id="ClQNVbBQdnwnMK7u6O7Z-119" value="Semaphore" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
           <mxGeometry x="1317" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-120" value="含义" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="1152" y="195" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-121" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-120" parent="ClQNVbBQdnwnMK7u6O7Z-1" source="ClQNVbBQdnwnMK7u6O7Z-119">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1382" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-122" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-123" source="ClQNVbBQdnwnMK7u6O7Z-119" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1305" y="-64.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-123" value="Go官方扩展库的实现&lt;br&gt;Weighted" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="1072" y="259.5" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-124" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-125" source="ClQNVbBQdnwnMK7u6O7Z-119" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1305" y="-64.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-125" value="使用信号量的常见错误及使用原则" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="990" y="340" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-126" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-127" source="ClQNVbBQdnwnMK7u6O7Z-119" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1305" y="-64.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-127" value="其他信号量的实现" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="1040" y="480" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-128" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-129" source="ClQNVbBQdnwnMK7u6O7Z-120" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1305" y="-64.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-129" value="Semaphore是用来控制多个goroutine&lt;br&gt;同时访问多个资源的并发原语" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="872" y="50" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-130" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-131" source="ClQNVbBQdnwnMK7u6O7Z-120" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1470" y="-130.00000000000023" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-131" value="包含2个操作：P操作是减少信号量的计数&lt;br&gt;值，而V操作是增加信号量的计数值" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="852" y="100" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-132" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-133" source="ClQNVbBQdnwnMK7u6O7Z-123" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1305" y="-64.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-133" value="Acquire(ctx,int64) 获取资源，支持一次获取多个，&lt;br&gt;没有足够多的资源，调用者被阻塞" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="685" y="170" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-134" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-135" source="ClQNVbBQdnwnMK7u6O7Z-123" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1658" y="-105.50000000000023" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-135" value="Release(int64) 将n个资源释放，返还给信号量&amp;nbsp;" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="695" y="220" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-136" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-137" source="ClQNVbBQdnwnMK7u6O7Z-123" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1658" y="-105.50000000000023" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-137" value="TryAcquire(int64) 尝试获取多个资源，资源不足&lt;br&gt;时，不会阻塞，返回false" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="685" y="260" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-138" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-139" source="ClQNVbBQdnwnMK7u6O7Z-125" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1413" y="-74.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-139" value="常见错误" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="840" y="330" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-140" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-141" source="ClQNVbBQdnwnMK7u6O7Z-125" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1740" y="2.2737367544323206e-13" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-141" value="使用原则" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="840" y="420" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-142" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-143" source="ClQNVbBQdnwnMK7u6O7Z-139" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1740" y="-29.999999999999773" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-143" value="请求了资源，但是忘记释放" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="600" y="299.5" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-144" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-145" source="ClQNVbBQdnwnMK7u6O7Z-139" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1890" y="-39.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-145" value="释放了从未请求的资源" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="615" y="329.5" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-146" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-147" source="ClQNVbBQdnwnMK7u6O7Z-139" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1890" y="-39.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-147" value="长时间持有一个资源，即使不需要它" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="545" y="360" width="220" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-148" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-149" source="ClQNVbBQdnwnMK7u6O7Z-139" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1890" y="-39.99999999999977" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-149" value="不持有一个资源，却直接使用他" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="555" y="390" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-150" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-151" source="ClQNVbBQdnwnMK7u6O7Z-141" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1740" y="-29.999999999999773" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-151" value="使用多少资源，就释放多少资源" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="570" y="430" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
