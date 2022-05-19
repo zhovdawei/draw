@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T02:04:46.865Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="fzvq196miNSy858SRV3e" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T02:06:15.613Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="G4laQM6wwYMVaZZNE74L" version="18.0.2" type="github">
   <diagram id="CFVVoWSrZk2KTcpsz0eJ" name="第 1 页">
     <mxGraphModel dx="4493" dy="1837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -235,13 +235,21 @@
         <mxCell id="ClQNVbBQdnwnMK7u6O7Z-111" value="wait方法等到计数值归零之后才返回" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" visible="0" parent="ClQNVbBQdnwnMK7u6O7Z-1">
           <mxGeometry x="557" y="490" width="220" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-112" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-113" source="ClQNVbBQdnwnMK7u6O7Z-86" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-112" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" visible="0" target="ClQNVbBQdnwnMK7u6O7Z-113" source="ClQNVbBQdnwnMK7u6O7Z-86" parent="ClQNVbBQdnwnMK7u6O7Z-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-1512" y="24.499999999999773" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-113" value="对于once.Do(f)调用，f函数的那个单词调用一定&lt;br&gt;happens-before任何once.Do(f)调用的返回" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-113" value="对于once.Do(f)调用，f函数的那个单词调用一定&lt;br&gt;happens-before任何once.Do(f)调用的返回" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" visible="0" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
           <mxGeometry x="482" y="520" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-114" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-115" source="ClQNVbBQdnwnMK7u6O7Z-88" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1512" y="24.499999999999773" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-115" value="可以保证使用atomic的Load/Store的变量之间的&lt;br&gt;顺序性，但是过于复杂，现阶段不建议使用atomic&lt;br&gt;保证顺序性" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="440" y="560" width="300" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
