@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-19T01:46:01.419Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="FssnNr7ADhDZTUwDBG6z" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-19T01:46:31.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NlLGbZMt1MaaWnCi-6tC" version="18.0.2" type="github">
   <diagram id="CFVVoWSrZk2KTcpsz0eJ" name="第 1 页">
     <mxGraphModel dx="4493" dy="1837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -136,7 +136,7 @@
             <mxPoint x="-1530" y="-105.50000000000023" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-80" value="channel" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-80" value="channel" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
           <mxGeometry x="965" y="360" width="70" height="20" as="geometry" />
         </mxCell>
         <mxCell id="ClQNVbBQdnwnMK7u6O7Z-81" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-82" source="ClQNVbBQdnwnMK7u6O7Z-50" parent="ClQNVbBQdnwnMK7u6O7Z-1">
@@ -176,7 +176,7 @@
             <mxPoint x="-1512" y="-55.50000000000023" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-90" value="往channel中的发送操作，happens-before从这个&lt;br&gt;channel接受相应的数据完成之前" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-90" value="往channel中的发送操作，happens-before从这个&lt;br&gt;channel接受相应的数据完成之前" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
           <mxGeometry x="542" y="229.5" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ClQNVbBQdnwnMK7u6O7Z-91" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-92" source="ClQNVbBQdnwnMK7u6O7Z-80" parent="ClQNVbBQdnwnMK7u6O7Z-1">
@@ -184,7 +184,7 @@
             <mxPoint x="-1657" y="-39.99999999999977" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-92" value="close一个channel的调用，肯定happens-before从&lt;br&gt;关闭的channel中读取出一个零值" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-92" value="close一个channel的调用，肯定happens-before从&lt;br&gt;关闭的channel中读取出一个零值" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
           <mxGeometry x="542" y="300" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ClQNVbBQdnwnMK7u6O7Z-93" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-96" source="ClQNVbBQdnwnMK7u6O7Z-80" parent="ClQNVbBQdnwnMK7u6O7Z-1">
@@ -200,7 +200,7 @@
             <mxPoint x="-1657" y="-25.500000000000075" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-96" value="对于unbuffered的channel,也就是容量为0的channel，&lt;br&gt;从此channel中读取数据的调用一定&lt;br&gt;happens-before往此channel发送数据的调用完成" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-96" value="对于unbuffered的channel,也就是容量为0的channel，&lt;br&gt;从此channel中读取数据的调用一定&lt;br&gt;happens-before往此channel发送数据的调用完成" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
           <mxGeometry x="512" y="374.4999999999997" width="320" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ClQNVbBQdnwnMK7u6O7Z-97" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="ClQNVbBQdnwnMK7u6O7Z-98" source="ClQNVbBQdnwnMK7u6O7Z-80" parent="ClQNVbBQdnwnMK7u6O7Z-1">
@@ -208,8 +208,8 @@
             <mxPoint x="-1657" y="-39.99999999999977" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-98" value="如果channel的容量是m(m&amp;gt;0),那么，第n个receive&lt;br&gt;一定happens-before第n+m个send的完成" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#ffe6cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d79b00;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
-          <mxGeometry x="537" y="472.25" width="300" height="30" as="geometry" />
+        <mxCell id="ClQNVbBQdnwnMK7u6O7Z-98" value="如果channel的容量是m(m&amp;gt;0),那么，第n个receive&lt;br&gt;一定happens-before第n+m个send的完成" style="whiteSpace=wrap;html=1;shape=partialRectangle;top=0;left=0;bottom=1;right=0;points=[[0,1],[1,1]];fillColor=#fff2cc;align=center;verticalAlign=bottom;routingCenterY=0.5;snapToPoint=1;recursiveResize=0;autosize=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};strokeColor=#d6b656;" vertex="1" collapsed="1" parent="ClQNVbBQdnwnMK7u6O7Z-1">
+          <mxGeometry x="532" y="472.25" width="300" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
